@@ -5,20 +5,23 @@ body {
 
 }
 
+
+/* pendite centraod perfecto , eror en el centrado horizontal */
 .cartas{
     display: flex;
     flex-direction: row;
     gap: 10rem;
     justify-content: center;
-    margin-top: 5rem;
+    /* align-items:center ;  */
 }
-
-.fw-bold{
-font-size: 1.8rem;
-}
-.logoHome{
+.card{
     display: flex;
-    flex-direction: row;
     justify-content: center;
 }
+
+.centrar1{
+display: flex;
+justify-content: center;
+}
+
 
