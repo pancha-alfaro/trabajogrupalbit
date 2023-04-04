@@ -17,3 +17,14 @@ input {
     width: 160px;
     color: #CCC;
 }
+
+.remainder a {
+    color: white;
+}
+
+.botoncrear {
+    margin-top: 30px;
+}
+.botoncrear:hover {
+    opacity: 0.3;
+  }
