@@ -9,9 +9,9 @@ function ingreso() {
     let password = document.getElementById("contrainput").value;
     
     if (nombreUsuario===usuario && clave === password) {
-        alert ("ingreso exitoso");
+        alert ("Ingreso exitoso");
         location.href = "../pages/home.html"
     }else if (nombreUsuario != usuario || contrasena != ingreseContrasena) {
-        alert ("error en el ingreso")
+        alert ("Error en el ingreso")
         }
 }

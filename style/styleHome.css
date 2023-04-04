@@ -13,15 +13,17 @@ body {
 
 .logoHome{
     width: 100px;
+    justify-content: center;
 }
 
 /* pendite centraod perfecto , eror en el centrado horizontal */
 .cartas{
     display: flex;
     flex-direction: row;
-    gap: 10rem;
+    gap: 5rem;
     justify-content: center;
     align-self: center;
+    flex-wrap: wrap;
 }
 .card{
     display: flex;
@@ -42,4 +44,10 @@ justify-content: center;
 .juegosN{
     width: 50px;
     height: 70px;
+}
+
+main {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
 }
