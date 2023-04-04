@@ -1,8 +1,6 @@
 var nombreUsuario = "usuarioprueba123";
 var clave = "12345";
 
-function ingreso() {
-
 
 function prueba() {
     
