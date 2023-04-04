@@ -19,3 +19,32 @@ body {
     border: 3px solid rgb(255, 96, 96);
     border-radius: 5rem;
 } */
+
+main {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+}
+
+.c-item {
+    height: 480px;
+}
+
+.leftside h1 {
+    font-family: 'VT323', monospace;
+    font-size: 2rem;
+}
+
+.card-group {
+    display: contents;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+
+footer {
+    background-color: rgb(39, 86, 128, .5);
+    color: white;
+    text-align: center;
+    padding: 20px 100px;
+  }
