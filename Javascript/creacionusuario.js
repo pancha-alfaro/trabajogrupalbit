@@ -28,4 +28,3 @@ function ingreso() {
         alert ("error en el ingreso")
         }
 }
-
