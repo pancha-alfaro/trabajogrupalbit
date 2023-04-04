@@ -9,13 +9,7 @@ body {
     background: linear-gradient(to right, #009FFF, #ec2F4B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
-
 .botones{
- gap: 20px;
- margin-left: 3rem;
-}
-
-/* .botones a {
-    border: 3px solid rgb(255, 96, 96);
-    border-radius: 5rem;
-} */
+    gap: 20px;
+    margin-left: 3rem;
+   }

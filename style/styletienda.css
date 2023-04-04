@@ -1,0 +1,59 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #009FFF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #009FFF, #ec2F4B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #009FFF, #ec2F4B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.logoHome{
+    width: 100px;
+    justify-content: center;
+}
+
+/* pendite centraod perfecto , eror en el centrado horizontal */
+.cartas{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    justify-content: center;
+    align-self: center;
+    flex-wrap: wrap;
+}
+.card{
+    display: flex;
+    justify-content: center;
+}
+
+.centrar1{
+display: flex;
+justify-content: center;
+}
+
+.proximosJuegos{
+    
+    display: flex;
+    flex-direction: row;
+
+}
+.juegosN{
+    width: 50px;
+    height: 70px;
+}
+
+main {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+}
+
+
+.botones{
+    gap: 20px;
+    margin-left: 3rem;
+   }
