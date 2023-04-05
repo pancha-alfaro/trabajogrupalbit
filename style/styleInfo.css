@@ -14,6 +14,7 @@ body {
     margin-left: 3rem;
 }
 footer {
+    margin-top: 300px;
     background-color: rgb(39, 86, 128, .5);
     color: white;
     text-align: center;
@@ -24,13 +25,13 @@ footer {
     flex-direction: row;
     gap: 30rem;
     justify-content: center;
-    padding: 20rem;
+    padding: 100px;
 }
 
 .contenedorredes{
     display: flex;
     flex-direction: column;
-    gap: 35px;
+    gap: 20px;
 }
 
 .redes{
@@ -40,23 +41,17 @@ flex-direction: row;
 
 .textRedes{
     display: block;
-    position: absolute;
     left: 45rem;
-    bottom: 34.5rem;
     font-size: 25px;
     
 }
 .textRedes2{
     display: block;
-    position: absolute;
     left: 45rem;
-    bottom: 40rem;
     font-size: 25px;
 }
 .textRedes3{
     display: block;
-    position: absolute;
     left: 45rem;
-    bottom: 29.4rem;
     font-size: 25px;
 }
