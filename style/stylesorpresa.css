@@ -1,0 +1,43 @@
+@import url("../assets/fonts/emotinengine/EmotionEngine-8ynA.ttf");
+body {
+    background: #009FFF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #009FFF, #ec2F4B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #009FFF, #ec2F4B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.botones{
+    gap: 20px;
+    margin-left: 3rem;
+   }
+
+   
+.principal {
+    background-image: url("../assets/img/EK3n83MWoAAix7c.jpg");
+    background-size: cover;
+    padding: 50px;
+    margin: 50px;
+    
+}
+
+.inside {
+    background-color: #22385f;
+    padding: 30px;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(../assets/fonts/emotinengine/EmotionEngine-8ynA.ttf)
+  }
+
+.inside h1 {
+    color: white;
+    font-family: myFirstFont;
+    font-size: 1.5rem;
+}
+
+.quieromisortext {
+    color: white;
+    font-family: myFirstFont;
+    font-size: 1.5rem;
+}

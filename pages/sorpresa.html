@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/stylesorpresa.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <title>Sorpresa!</title>
+</head>
+<body>
+
+    <div class="menu">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+            <img src="../assets/img/lgo_imagen-removebg-preview.png" width="30" height="24" class="imgNav p-1">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav botones">
+                <a class="nav-link" aria-current="page" href="./home.html">Home</a>
+                <a class="nav-link" href="./tienda.html">Tienda</a>
+                <a class="nav-link active" href="./sorpresa.html">Sorpresa!</a>
+                <a class="nav-link" href="./info.html">Contacto</a>
+            </div>
+            </div>
+        </div>
+        </nav>  
+    </div> 
+
+    <section class="principal">
+        <div class="inside">
+                 <h1 class="text-white text-center"> 
+                ¡Atención a todos los jugadores!<br>
+                Por qué te valoramos mucho en tu día te queremos dar una super sorpresa! <br><br>
+                Gira los dados uno por uno, revisa cual es tu numero con el que jugarás hoy y después ve si te ganaste el premio!<br><br>
+                </h1>
+
+                <section class="dados text-center">
+                    <div class="dado1">
+                        <img src="../assets/img/dado.gif">
+                        <button class="m-3" onclick="writenumber()">Girar!</button>
+                        <p id="p1" class="text-white fs-5">Tu primer numero es...</p>
+                    </div>
+
+                    <div class="dado2 m-5">
+                        <img src="../assets/img/dado.gif">
+                        <button class="m-3" onclick="writenumber2()">Girar!</button>
+                        <p id="p2" class="text-white fs-5">Tu segundo numero es...</p>
+                    </div>
+                </section>
+
+                <div class="sumanum text-center m-5">
+                    <a id="resultadosum" href="#" onclick="addNumbers()" class="text-white fs-6" style="text-decoration:none">Mi numero de la suerte de es...</a>
+                </div>
+
+                <div class="quieromisortext">
+                    <div class="promo text-center m-5">
+                    <a id="resultadoprom" href="#" onclick="promocion()" class="text-white fs-1" style="text-decoration:none">Quiero mi sorpresa ya!</a>
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
+    </section>
+
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="../Javascript/sorpresa.js"></script>
+</body>
+</html>
