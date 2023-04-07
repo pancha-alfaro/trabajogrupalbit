@@ -13,6 +13,7 @@ function guardarUsuario(){
     var Uclave;
     Usuario = localStorage.setItem("usuario",document.getElementById("nuevousuario").value);
     Uclave = localStorage.setItem("clave", document.getElementById("nuevocontra").value);
+    alert("su usuario se creo con exito");
 }
 
 
