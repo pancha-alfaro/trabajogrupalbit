@@ -1,4 +1,4 @@
 function cerrarSesion(){
-    alert("cerro sesion correctamente");
+    alert("Sesión cerrada.");
     location.href = "../index.html"
 }

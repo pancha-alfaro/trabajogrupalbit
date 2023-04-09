@@ -13,7 +13,7 @@ function guardarUsuario(){
     var Uclave;
     Usuario = localStorage.setItem("usuario",document.getElementById("nuevousuario").value);
     Uclave = localStorage.setItem("clave", document.getElementById("nuevocontra").value);
-    alert("su usuario se creo con exito");
+    alert("Usuario creado con exito.");
 }
 
 
@@ -23,9 +23,9 @@ function ingreso() {
     let password = document.getElementById("contrainput").value;
     
     if ( localStorage.getItem("usuario") == usuario && localStorage.getItem("clave") == password) {
-        alert ("ingreso exitoso");
+        alert ("Ingreso exitoso.");
         location.href = "../pages/home.html"
     }else if ( localStorage.getItem("usuario") != usuario || localStorage.getItem("clave") != password) {
-        alert ("error en el ingreso")
+        alert ("Error en el ingreso.")
         }
 }

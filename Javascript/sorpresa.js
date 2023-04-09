@@ -35,4 +35,33 @@ function promocion() {
   }
 }
 
+function redimir() {
+  let codigoprompt;
+  const codigouno = 01229;
+  const codigodos = 01329;
+  const codigotres = 01429;
+
+  
+  codigoprompt = parseInt(prompt("Ingrese su código"));
+
+  if (codigoprompt == codigouno || codigoprompt == codigodos || codigoprompt == codigotres ) {
+    
+    alert("Código correcto! Elije lo que quieras!");
+    location.href = "../pages/tienda.html";
+
+  } else {
+    
+    for (counter = 1; counter <= 2; counter++) {
+      codigoprompt = parseInt(prompt("Ingrese su código nuevamente"));
+      alert(`Código inválido, intento ${counter}`);
+      
+  }
+  if (counter > 2) {
+      alert("Código inválido");
+      location.href = "../pages/home.html";
+  }
+  }
+
+}
+
 
